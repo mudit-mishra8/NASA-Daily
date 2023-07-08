@@ -63,6 +63,6 @@ View the code for the Main Lambda function [here](https://github.com/mudit-mishr
 The daily email sent to the registered users contains an image and its description fetched from NASA's APOD service. 
 
 The email looks like below: 
- [here](https://github.com/mudit-mishra8/NASA-Daily/blob/main/nasa_email.png).
 
-
+![here](https://github.com/mudit-mishra8/NASA-Daily/blob/main/nasa_email.png).
+ 
