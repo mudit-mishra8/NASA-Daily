@@ -14,6 +14,7 @@ This repository contains the implementation of a serverless architecture in AWS,
 - AWS Lambda
 - Amazon DynamoDB
 - AWS SES
+- AWS Event Bridge
 
 ## Project Steps
 
