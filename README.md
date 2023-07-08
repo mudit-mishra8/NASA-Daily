@@ -43,23 +43,25 @@ View the Kafka Transformation code [here](https://github.com/mudit-mishra8/NASA-
 
 #### Kafka Consumer - Java
 
-View the Kafka Consumer code [here](link-to-kafka-consumer-file).
+View the Kafka Consumer code [here](https://github.com/mudit-mishra8/NASA-Daily/blob/main/nasa_s3_consumer.java).
 
 #### Lambda Function: nasa_invoke_yearwise_lambda
 
-View the code for the nasa_invoke_yearwise_lambda function [here](link-to-nasa-invoke-yearwise-lambda-function-file).
+View the code for the nasa_invoke_yearwise_lambda function [here](https://github.com/mudit-mishra8/NASA-Daily/blob/main/nasa_invoke_yearwise_lambda.py).
 
 #### Lambda Function: nasa_s3_yearwise
 
-View the code for the nasa_s3_yearwise function [here](link-to-nasa-s3-yearwise-function-file).
+View the code for the nasa_s3_yearwise function [here](https://github.com/mudit-mishra8/NASA-Daily/blob/main/nasa_s3_yearwise.py).
 
 #### Lambda Function: nasa_create_message
 
-View the code for the Main Lambda function [here](link-to-main-lambda-function-file).
+View the code for the Main Lambda function [here](https://github.com/mudit-mishra8/NASA-Daily/blob/main/lambda_create_and_deliver.py).
 
 ## Daily Email Structure
 
-The daily email sent to the registered users contains an image and its description fetched from NASA's APOD service. The email looks like below: 
-Please find the architecture diagram ![here](link-to-architecture-diagram).
+The daily email sent to the registered users contains an image and its description fetched from NASA's APOD service. 
+
+The email looks like below: 
+ [here](https://github.com/mudit-mishra8/NASA-Daily/blob/main/nasa_email.png).
 
 
