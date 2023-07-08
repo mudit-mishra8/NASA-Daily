@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the implementation of a serverless architecture project in AWS, which extracts NASA image data using Kafka, stores it in an S3 bucket, processes the data using multiple AWS Lambda functions, and then sends a daily email to registered users using SES. The email contains a description and the image itself from NASA's APOD (Astronomy Picture of the Day) service.
+This repository contains the implementation of a serverless architecture in AWS, which extracts NASA image data using Kafka, stores it in an S3 bucket, processes the data using multiple AWS Lambda functions, and then sends a daily email to registered users using SES. The email contains a description and the image itself from NASA's APOD (Astronomy Picture of the Day) service.
 
 ## Architecture Diagram
 ![here](https://github.com/mudit-mishra8/NASA-Daily/blob/main/nasa%20(3).png).
