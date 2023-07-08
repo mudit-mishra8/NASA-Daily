@@ -27,7 +27,7 @@ public class apidataextractProducer {
         // Make HTTP request to API endpoint
             OkHttpClient client = new OkHttpClient();
             String baseUrl = "https://api.nasa.gov/planetary/apod?date=%s&api_key=%s";
-            String apiKey = "BSdAqxgAARzC5vFiMaiPeMQjnLE0YtXp0seyfP1o";
+            String apiKey = "enterthekey";
 
         for (int month = 1; month <= 12; month++) {
             for (int day = 1; day <= 31; day++) {
