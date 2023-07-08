@@ -6,7 +6,7 @@ This repository contains the implementation of a serverless architecture project
 
 ## Architecture Diagram
 
-Please find the architecture diagram ![here](link-to-architecture-diagram).
+Please find the architecture diagram ![here](https://github.com/mudit-mishra8/NASA-Daily/blob/main/nasa%20(3).png).
 
 ## Technologies Used
 
@@ -19,9 +19,17 @@ Please find the architecture diagram ![here](link-to-architecture-diagram).
 ## Project Steps
 
 1. **Data Collection** - An Apache Kafka producer extracts the image data from the NASA APOD API and writes to a Kafka cluster.
-2. **Data Transfer** - An Apache Kafka consumer consumes the data from the Kafka topic and writes it to an S3 bucket. The data for the years 2020, 2021, and 2022 is collected.
-3. **Data Processing** - AWS Lambda functions are invoked to create year-specific folders in the S3 bucket and arrange the files accordingly.
-4. **Email Preparation and Delivery** - The main AWS Lambda function creates an email message and sends it via AWS SES. It reads the filename from DynamoDB, fetches the file from the S3 bucket, processes it as needed, and updates the filename in DynamoDB for the next processing cycle.
+2. **Data Transformation** - An Apache Kafka application consumes the data from the Kafka topic and clean and transformed the data and produce to other topic. 
+3. **Data Transfer** - An Apache Kafka consumer consumes the data from the Kafka topic and writes it to an S3 bucket. The data for the years 2018, 2019, 2020, 2021, and 2022 is collected.
+4. **Data Processing** - AWS Lambda functions are invoked to create year-specific folders in the S3 bucket and arrange the files accordingly.
+5. **Email Preparation and Delivery** - The AWS Lambda function creates an email message and sends it via AWS SES. It doe the following:
+    This Lambda function reads the filename from the DynamoDB table.
+   
+    This Lambda function fetches the file from the S3 bucket based on the filename obtained from DynamoDB.
+   
+    This Lambda function processes the file as needed.
+   
+    This Lambda function updates the filename in DynamoDB to the next file to be processed.
 
 ## Code Samples
 
