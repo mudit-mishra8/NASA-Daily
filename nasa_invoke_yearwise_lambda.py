@@ -1,4 +1,4 @@
-# lambda function which extarct all the files present in s3- nasatarget and for each file, invoking another lambda function: nasa_s3_yearwise which will put files in specific folder(year).
+# lambda function which extract all the files present in s3- nasatarget and for each file, invoking another lambda function: nasa_s3_yearwise which will put files in specific folder(year).
 # nasa_invoke_yearwise_lambda
 import json
 import boto3
