@@ -1,4 +1,4 @@
-# AWS Serverless Data Engineering Project: Daily NASA Image Email Delivery
+# AWS Serverless : Daily NASA Image Email Delivery
 
 ## Overview
 
